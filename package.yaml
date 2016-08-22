@@ -1,0 +1,14 @@
+name: xmonad-keys-qq
+version: 0.1.0.0
+
+ghc-options: -Wall
+
+dependencies:
+  - base
+
+library:
+  source-dirs: src
+  dependencies:
+    - base
+    - haskell-src-meta
+    - template-haskell
